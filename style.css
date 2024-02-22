@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:sans-serif;
+    
+
+}
+.outer-box{
+    
+    width: 100vw;
+    height: 200vh;
+    background: linear-gradient( to top left, rgb(194, 132, 50) ,rgba(24, 108, 111, 0.642));
+}
+.inner-box{
+    
+    width: 300px ;
+    height: auto;
+    margin: auto;
+    position: relative;
+    top:30% ;
+  transform: translateY(-50);
+  padding:50px 50px;
+  
+  /* background-color: #ffffffcc; */
+  background: linear-gradient(to left,#ffffffff,#ffffff33);
+  border-radius: 8px;
+  box-shadow:2px 2px 4px burlywood;
+ 
+  z-index: 2;
+}
+.signup-heeder h1{
+    font: size 2.5rem ;
+    color: rgb(134, 31, 134);
+
+}
+.signup-heeder p{
+    color: red;
+    font-size: 0.8rem;
+    padding: 50px;
+
+}
+.signup body{
+    margin: 10px;
+    padding: 100px;
+   
+
+}
+.signup-body p{
+    margin: 20px 0;
+    display: block;
+
+}
+.signup-body p label{
+display: block;
+font-weight: bold;
+
+}
+.signup-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(158, 131, 131);
+border-radius: 4px;
+font-size: 1rem;
+margin-top: 4px;
+
+}
+.signup-body p input[type="submit"]{
+background-color: rgb(93, 163, 194);
+border: none;
+color: white;
+cursor: pointer;
+}
+.signup-body p input[type="submit"]:hover{
+    color: rgb(67, 18, 5);
+    background-color: rgb(0, 200, 255);
+}
+.signup-footer p{
+    color: darkgreen;
+   
+}
+.signup-footer p a{
+    color: deepskyblue;
+    
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right ,rgb(29, 180, 188), rgb(43, 109, 44));
+    position: absolute;
+}
+#cc{
+    top: 100px;
+    left:40px ;
+
+}
+#c2{
+bottom: 100px;
+right: 40px;
+}
